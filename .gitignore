@@ -1,0 +1,29 @@
+# binaries
+cuda/snake
+cuda/snake.tmp
+cuda/scan_range
+cuda/scan_range.tmp
+cuda/scan_range.cu
+
+# runtime data (never commit search state)
+*.log
+cuda/snake.log
+cuda/exhaust_*.log
+cuda/exhaust_results.txt
+cuda/found.txt
+cuda/cannon_found.txt
+cuda/freeze_masks_p*.txt
+cuda/*.dat
+cuda/*.bak
+cuda/*.tmp
+*.pkl
+
+# python
+__pycache__/
+*.pyc
+
+# editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
